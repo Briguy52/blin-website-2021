@@ -35,3 +35,54 @@ nav a {
 .content {
   padding: 1rem;
 }
+
+/* https://css-tricks.com/perfect-full-page-background-image/ */
+.background {
+  background: url(/img/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  min-height: 100vh;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-card {
+  border-radius: 6px;
+  margin-top: 30vh;
+  background: whitesmoke;
+  width: 480px;
+  height: 287px;
+}
+
+.text-area {
+  margin: 2vw;
+}
+
+a {
+  color: black;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+a:hover {
+  font-weight: bolder;
+}
+
+.card-title {
+  text-align: center;
+  color: black;
+  font-family: 'Larsseit', sans-serif;
+}
+
+.card-text {
+  margin-top: 2em;
+  color: black;
+  font-family: 'Inconsolata', monospace;
+}

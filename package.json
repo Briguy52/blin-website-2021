@@ -1,14 +1,11 @@
 {
   "name": "react-static-example-basic",
-  "homepage": "http://briguy52.github.io/blin-website-2021",
   "scripts": {
     "start": "react-static start",
     "stage": "react-static build --staging",
     "build": "react-static build",
     "analyze": "react-static build --analyze",
-    "serve": "serve dist -p 3000",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "serve": "serve dist -p 3000"
   },
   "dependencies": {
     "@reach/router": "^1.3.4",
